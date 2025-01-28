@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>taskManagerapi</artifactId>
+	<artifactId>aws-appsync-java-dynamodb</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>taskManagerapi</name>
 	<description>TaskManagerAPI demo project for Spring Boot</description>
