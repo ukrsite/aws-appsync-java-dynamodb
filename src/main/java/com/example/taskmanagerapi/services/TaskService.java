@@ -29,7 +29,7 @@ public class TaskService {
     }
 
     public String createTask(String id, String title, boolean completed) throws Exception {
-        dynamoDBService.createTask(id, title, completed);
+        // dynamoDBService.createTask(id, title, completed);
 
         String mutation = """
             mutation CreateTask($id: ID!, $title: String!, $completed: Boolean!) {
